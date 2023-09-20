@@ -1,6 +1,12 @@
 
 # Node Express Assets Backend
 
+1. **Clone your repository**:
+
+   ```bash
+   git clone https://github.com/tawfeeqm/demclp.git
+   cd demclp
+   ```
 ## Setup
 
 1. Ensure you have Node, npm, and Docker installed.
