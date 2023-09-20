@@ -1,5 +1,5 @@
 
-# Node Express Backend Boilerplate
+# Node Express Assets Backend
 
 ## Setup
 
