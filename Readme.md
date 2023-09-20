@@ -1,12 +1,18 @@
 
-# Node Express Backend Boilerplate
+# Node Express Assets Backend
 
 ## Setup
 
-1. Ensure you have Node, npm, and Docker installed.
-2. Copy `.env.sample` to `.env`.
-3. Start the database using: `docker-compose up -d`.
-4. Initialize the schema with: `npm run init-schema`.
+1. Clone your repository:
+   ```bash
+   git clone https://github.com/tawfeeqm/demclp.git
+   cd demclp
+   ```
+2. Ensure you have Node, npm, and Docker installed.
+4. Copy `.env.sample` to `.env`.
+5. Start the database using: `docker-compose up -d`.
+6. Run ```npm i```
+7. Initialize the schema with: `npm run init-schema`.
 
 ## Run
 
