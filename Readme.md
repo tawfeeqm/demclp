@@ -9,9 +9,10 @@
    cd demclp
    ```
 2. Ensure you have Node, npm, and Docker installed.
-3. Copy `.env.sample` to `.env`.
-4. Start the database using: `docker-compose up -d`.
-5. Initialize the schema with: `npm run init-schema`.
+4. Copy `.env.sample` to `.env`.
+5. Start the database using: `docker-compose up -d`.
+6. Run ```npm i```
+7. Initialize the schema with: `npm run init-schema`.
 
 ## Run
 
