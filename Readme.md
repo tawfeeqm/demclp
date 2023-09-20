@@ -3,7 +3,7 @@
 
 ## Setup
 
-**Clone your repository**:
+1. Clone your repository:
    ```bash
    git clone https://github.com/tawfeeqm/demclp.git
    cd demclp
