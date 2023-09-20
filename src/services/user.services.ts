@@ -8,6 +8,7 @@ export async function signUpUser(obj: UserSignUp): Promise<CreatedUserInDb | voi
     const hashedPassword = await bcrypt.hash(password, parseInt(process.env.SALT_ROUNDS || '10'));
     const findUser: any = await findUserByEmail(email);
     if (findUser.rowCount > 0) {
+        console.log('user already exists')
         emitHTTPErrorResponse(400, 'Username or email already exists');
     }
     const createUserInDb: CreatedUserInDb = await createUser({ email, password: hashedPassword, username });
