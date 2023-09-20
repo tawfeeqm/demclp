@@ -1,18 +1,17 @@
 
 # Node Express Assets Backend
 
-1. **Clone your repository**:
+## Setup
 
+**Clone your repository**:
    ```bash
    git clone https://github.com/tawfeeqm/demclp.git
    cd demclp
    ```
-## Setup
-
-1. Ensure you have Node, npm, and Docker installed.
-2. Copy `.env.sample` to `.env`.
-3. Start the database using: `docker-compose up -d`.
-4. Initialize the schema with: `npm run init-schema`.
+2. Ensure you have Node, npm, and Docker installed.
+3. Copy `.env.sample` to `.env`.
+4. Start the database using: `docker-compose up -d`.
+5. Initialize the schema with: `npm run init-schema`.
 
 ## Run
 
