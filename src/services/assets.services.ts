@@ -13,7 +13,6 @@ export async function createAssetInServices(obj: Asset, userId: string): Promise
 
 export async function getAssetInServices(uuid: string) {
     const assetsResult = await getAssetFromDbById(uuid);
-    console.log('am I here?')
     if (assetsResult.rowCount === 0) {
         emitHTTPErrorResponse(404, 'Assets not found');
         return;

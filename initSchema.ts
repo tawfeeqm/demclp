@@ -10,7 +10,7 @@ export default async function createSchema() {
     const schemaQueries = [
       `CREATE TABLE IF NOT EXISTS migrations (id SERIAL PRIMARY KEY, name VARCHAR(50))`,
       `CREATE TABLE IF NOT EXISTS users (id SERIAL PRIMARY KEY,
-      username VARCHAR(255) NOT NULL UNIQUE,
+      username VARCHAR(255) NOT NULL,
       password VARCHAR(255) NOT NULL,
       email VARCHAR(255) NOT NULL UNIQUE,
       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
